@@ -1,0 +1,18 @@
+# Author: Eric Blue - http://eric-blue.com
+# Project: Scrapbook - Email interface
+# Description:  Enables webpages to be captured via Firefox Scrapbook plugin+POW via email
+#
+# Scapbook URL = https://addons.mozilla.org/en-us/firefox/addon/scrapbook/
+# POW URL = https://addons.mozilla.org/en-us/firefox/addon/pow-plain-old-webserver/
+
+[Overview]
+
+The following code enables webpages to be captured and initiated from another device
+not running the Firefox Scrapbook plugin.  Simply email a link to a designated email
+address and the script will check the email, send the request to the Scrapbook-enabled
+POW (Plain Old Webserver) browser, and capture the page.  
+
+This is accomplished with 2 main modules:
+
+1) Email interface (Perl)
+2) Scrapbook/POW bridge (Server-side Javascript)
